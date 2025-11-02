@@ -14,17 +14,26 @@
         type="text"
         name="title"
         placeholder="Enter title"
+        maxlength="3"
+        required
       />
       <br />
       <label for="journal-category">Journal Type</label>
-      <select name="category" id="journal-category">
+      <select name="category" id="journal-category" required>
         <option value="Task">Task</option>
         <option value="note">Note</option>
         <option value="idea">Idea</option>
       </select>
       <br />
       <label for="journal-entry">Entry</label>
-      <textarea id="journal-entry" name="entry" rows="10" cols="40"></textarea>
+      <textarea
+        id="journal-entry"
+        name="entry"
+        rows="10"
+        cols="40"
+        minlength="10"
+        required
+      ></textarea>
       <br />
       <button type="reset">Cancel</button>
       <br />
