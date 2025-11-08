@@ -3,7 +3,16 @@
   padding: 0p;
   margin: 0p;
 }
-
+:root {
+  --text-sm: 12px;
+  --text-base: 16px;
+  --text-paragraph: 20px;
+  --text-h5: 24px;
+  --text-h4: 32px;
+  --text-h3: 40px;
+  --text-h2: 48px;
+  --text-h1: 62px;
+}
 html {
   font-size: 62.5%;
 }
@@ -26,7 +35,7 @@ h5 {
 
   line-height: 1.2;
   letter-spacing: -2px;
-  font-size: 62px;
+  font-size: var(--text-h1);
 }
 h1 {
   text-align: center;
