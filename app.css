@@ -83,5 +83,6 @@ ul {
   text-align: center;
 }
 .footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
